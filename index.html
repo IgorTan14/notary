@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Notarius</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=PT+Serif:wght@700&family=Roboto+Condensed&family=Roboto+Slab:wght@400;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <!-- <img src="images/logo.svg" alt="logo" class="logo"> -->
+        <div class="header__top">
+          <a href="#" class="logo">
+            <img src="images/logo.png" alt="logo" class="logo__img">
+            <p>Нотаріальне агентство <br>"Нотаріус-Київ"</p>
+          </a>
+          <div class="header__phone"><span>Зателефонуйте для консультації:</span>
+            <a href="tel:80508543543" class="header__phone-number">тел. 067-11-11-111</a>
+          </div>
+            <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="#services" class="menu__link">Реєстрація</a></li>
+              <li class="menu__item">
+                <a href="#services" class="menu__link">Договори</a></li>
+              <li class="menu__item">
+                <a href="#services" class="menu__link">Заяви </a></li>
+              <li class="menu__item">
+                <a href="#services" class="menu__link">Доручення</a></li>
+              <li class="menu__item">
+                <a href="#services" class="menu__link">Загранпаспорт</a></li>
+            </ul>
+          </nav>
+        </div>
+        <h1 class="header__title">
+          Послуги Нотаріуса
+        </h1>
+        <div class="header__content">
+          <p class="header__descr">Укладання актів, зяав, договорів, оформлення документів. Робота з процедурою будь якого рівня. Первична консультація безкоштовна.</p>
+            <a href="#booking" class="header__btn">Залишити заяву</a>
+            <div class="header__arrow animate__animated animate__slideInDown animate__infinite">
+            <a href="#booking" class="header__arrow-link ">
+              <img src="images/arrow.svg" alt="" class="header__arrow-img">
+            </a>
+        </div>
+      </div>
+      </div>
+    </div>
+  </header>
+
+
+  <main class="main">
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services__inner">
+
+          <div class="services__item">
+            <h6>ДОВІРЕНІСТЬ</h6>
+                  <div class="dropdown">
+                    <button class="dropdown-btn">Довіренисть</button>
+                      <img class="dropdown-arr" src="images/select-arr.png" alt="">
+                        <ul class="dropdown__list">
+                          <li class="dropdown__list-item" data-value="house">представництво інтересів на 1-2 дії - від 500 грн</li>
+                          <li class="dropdown__list-item" data-value="bath">розпорядження нерухомим майном - від 700 грн</li>
+                          <li class="dropdown__list-item" data-value="garage">розпорядження транспортним засобом - від 800 грн</li>
+                        <li class="dropdown__list-item" data-value="canopy">передоручення - від 800 грн</li>
+                        <li class="dropdown__list-item" data-value="commercial">скасування довіреності - 400 грн</li>
+                      <li class="dropdown__list-item" data-value="doesn't matter">скасування довіреності, посвідченої іншим нотаріусом - 600 грн</li>
+                      <li class="dropdown__list-item" data-value="commercial">реєстрація консульської довіреності - 600 грн</li>
+                    </ul>
+                    <input class="dropdown__input-hidden" type="text" name="select-category">
+                </div>
+            </div>
+
+            <div class="services__item">
+              <h6>ЗАСВІДЧЕННЯ ПІДПИСІВ</h6>
+                    <div class="dropdown">
+                      <button class="dropdown-btn">ЗАСВІДЧЕННЯ ПІДПИСІВ</button>
+                        <img class="dropdown-arr" src="images/select-arr.png" alt="">
+                          <ul class="dropdown__list">
+                            <li class="dropdown__list-item" data-value="house">на заявах на виїзд дитини за кордон - від 600 грн</li>
+                            <li class="dropdown__list-item" data-value="bath">на заявах про згоду одного з подружжя на продаж/купівлю майна - 700 грн</li>
+                            <li class="dropdown__list-item" data-value="garage">на заявах про запрошення іноземних громадян - 700 грн</li>
+                          <li class="dropdown__list-item" data-value="canopy">інші заяви - 700 грн</li>
+                          <li class="dropdown__list-item" data-value="commercial">на банківських картках - 1 підпис 800 грн / 2 підписи 1200 грн</li>
+                        <li class="dropdown__list-item" data-value="doesn't matter">на статуті/протоколі - 1 підпис 800 грн / 2 підписи 1200 грн</li>
+                        <li class="dropdown__list-item" data-value="doesn't matter">додатковий підписант - 400 грн</li>
+                      </ul>
+                      <input class="dropdown__input-hidden" type="text" name="select-category">
+                  </div>
+              </div>
+
+            <div class="services__item">
+              <h6>ДОГОВОРИ</h6>
+                    <div class="dropdown">
+                      <button class="dropdown-btn">ДОГОВОРИ</button>
+                        <img class="dropdown-arr" src="images/select-arr.png" alt="">
+                          <ul class="dropdown__list">
+                            <li class="dropdown__list-item" data-value="house">договір купівлі- продажу/дарування нерухомого майна - від 6000 грн та обов'язкові збори</li>
+                            <li class="dropdown__list-item" data-value="bath">договір купівлі продажу транспортного засобу - 4000 грн та обов'язкові збори</li>
+                            <li class="dropdown__list-item" data-value="garage">попередній договір - 4000 грн </li>
+                          <li class="dropdown__list-item" data-value="canopy">договір міни - від 7000 грн та обов'язкові збори</li>
+                          <li class="dropdown__list-item" data-value="commercial">договір позики грошових коштів - від 4000 грн та обов'язкові збори</li>
+                        <li class="dropdown__list-item" data-value="doesn't matter">договір довічного утримання (догляду) - від 7000 грн та обов'язкові збори </li>
+                        <li class="dropdown__list-item" data-value="doesn't matter">оренда транспортного засобу - 3500 грн  </li>
+                        <li class="dropdown__list-item" data-value="doesn't matter">акт купівлі-продажу частки статутного капіталу - 2000 грн </li>
+                        <li class="dropdown__list-item" data-value="doesn't matter">договір застави/іпотеки - від 6000 грн та обов'язкові збори</li>
+                        <li class="dropdown__list-item" data-value="doesn't matter">шлюбний договір - від 4000 грн</li>
+                        <li class="dropdown__list-item" data-value="doesn't matter">договір про поділ майна подружжя - від 6000 грн</li>
+                        <li class="dropdown__list-item" data-value="doesn't matter">договір про визначення місця проживання дитини - 3000 грн </li>
+                        <li class="dropdown__list-item" data-value="doesn't matter">договір про сплату аліментів на дитину - 4000 грн </li>
+                        <li class="dropdown__list-item" data-value="doesn't matter">договір про внесення змін до договору - 2000 грн</li>
+                      </ul>
+                      <input class="dropdown__input-hidden" type="text" name="select-category">
+                  </div>
+              </div>
+
+              <div class="services__item">
+                <h6>ЗАПОВІТ</h6>
+                      <div class="dropdown">
+                        <button class="dropdown-btn">ЗАПОВІТ</button>
+                          <img class="dropdown-arr" src="images/select-arr.png" alt="">
+                            <ul class="dropdown__list">
+                              <li class="dropdown__list-item" data-value="house">заповіт простий - 2000 грн</li>
+                              <li class="dropdown__list-item" data-value="bath">заповіт з умовами - від 2000 грн</li>
+                              <li class="dropdown__list-item" data-value="garage">заповіт зі свідками - 3000 грн</li>
+                            <li class="dropdown__list-item" data-value="canopy">скасування заповіту - 500 грн</li>
+                            <li class="dropdown__list-item" data-value="commercial">скасування заповіту, посвідченого іншим нотаріусом - 700 грн</li>
+                        </ul>
+                        <input class="dropdown__input-hidden" type="text" name="select-category">
+                    </div>
+                </div>
+
+                <div class="services__item">
+                  <h6>СПАДЩИНА</h6>
+                        <div class="dropdown">
+                          <button class="dropdown-btn">СПАДЩИНА</button>
+                            <img class="dropdown-arr" src="images/select-arr.png" alt="">
+                              <ul class="dropdown__list">
+                                <li class="dropdown__list-item" data-value="house">відкриття спадщини  від - 2500 грн</li>
+                                <li class="dropdown__list-item" data-value="bath">наступні заяви - 700 грн</li>
+                                <li class="dropdown__list-item" data-value="garage">видача свідоцтва на транспортні засоби - 3000 грн</li>
+                              <li class="dropdown__list-item" data-value="canopy">видача свідоцтва на нерухоме майно - 5000 грн</li>
+                              <li class="dropdown__list-item" data-value="commercial">видача свідоцтва на грошові вклади - 2000 грн</li>
+                            <li class="dropdown__list-item" data-value="doesn't matter">договір про розподіл спадщини - 3000 грн</li>
+                            <li class="dropdown__list-item" data-value="doesn't matter">видача свідоцтва про право власності пережившого з подружжя - 4000 грн</li>
+                          </ul>
+                          <input class="dropdown__input-hidden" type="text" name="select-category">
+                      </div>
+                  </div>
+
+                  <div class="services__item">
+                    <h6>ІНШІ НОТОРІАЛЬНО-РЕЄСТРАЦІЙНІ ДІЇ</h6>
+                          <div class="dropdown">
+                            <button class="dropdown-btn">ІНШІ НОТОРІАЛЬНО-РЕЄСТРАЦІЙНІ ДІЇ</button>
+                              <img class="dropdown-arr" src="images/select-arr.png" alt="">
+                                <ul class="dropdown__list">
+                                  <li class="dropdown__list-item" data-value="house">переклад зроблений нотаріусом - від 400 грн</li>
+                                  <li class="dropdown__list-item" data-value="bath">інформація з Державного реєстру обтяжень рухомого майна - від 300 грн</li>
+                                  <li class="dropdown__list-item" data-value="garage">інформація з Єдиного реєстру довіреностей - від 300 грн</li>
+                                <li class="dropdown__list-item" data-value="canopy">інформація зі Спадкового реєстру - від 300 грн</li>
+                                <li class="dropdown__list-item" data-value="commercial">інформація з Державного реєстру речових прав - від 700 грн</li>
+                              <li class="dropdown__list-item" data-value="doesn't matter">інформація з Єдиного державного реєстру юридичних осіб - від 500 грн</li>
+                              <li class="dropdown__list-item" data-value="doesn't matter">консультація не пов'язана з вчиненням нотаріальної дії - від 300 грн</li>
+                              <li class="dropdown__list-item" data-value="doesn't matter">виїзд нотаріуса - від 1000 грн</li>
+                              <li class="dropdown__list-item" data-value="doesn't matter">державна реєстрація нерухомого майна в ДРРП - 5000 грн</li>
+                              <li class="dropdown__list-item" data-value="doesn't matter">реєстрація припинення обтяження - від 2000 грн</li>
+                            </ul>
+                            <input class="dropdown__input-hidden" type="text" name="select-category">
+                        </div>
+                    </div>
+
+                  <div class="services__item">
+                    <h6>ПАСПОРТИ</h6>
+                          <div class="dropdown">
+                            <button class="dropdown-btn">ПАСПОРТИ</button>
+                              <img class="dropdown-arr" src="images/select-arr.png" alt="">
+                                <ul class="dropdown__list">
+                                  <li class="dropdown__list-item" data-value="house">паспорт громодянина України - 2000 грн</li>
+                                  <li class="dropdown__list-item" data-value="bath">загранпаспорт - 2000 грн</li>
+                                  <li class="dropdown__list-item" data-value="garage">загранпаспорт дитині - 1000 грн</li>
+                            </ul>
+                            <input class="dropdown__input-hidden" type="text" name="select-category">
+                        </div>
+                    </div>
+
+                    <div class="services__item">
+                      <h6>КОПІЇ</h6>
+                            <div class="dropdown">
+                              <button class="dropdown-btn">КОПІЇ</button>
+                                <img class="dropdown-arr" src="images/select-arr.png" alt="">
+                                  <ul class="dropdown__list">
+                                    <li class="dropdown__list-item" data-value="house">документ на одній сторінці - 100 грн</li>
+                                    <li class="dropdown__list-item" data-value="bath">документ більше двох сторінок - 1 сторінка 70 грн</li>
+                              </ul>
+                              <input class="dropdown__input-hidden" type="text" name="select-category">
+                          </div>
+                      </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+  <section class="map">
+    <div class="container">
+      <h2 class="map__title title">Ми на карті</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d325516.3770455823!2d30.532690549999998!3d50.402035500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4cf4ee15a4505%3A0x764931d2170146fe!2z0JrQuNGX0LIsIDAyMDAw!5e0!3m2!1suk!2sua!4v1715072634031!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+    <section class="revies">
+      <div class="container">
+          <h4 class="revies__title title" id="revies">Відгуки</h4>
+          <div class="revies__inner">
+        
+            <div class="revies__item">
+              <div class="revies__item-ava">
+                  <img src="images/reviews/3.png" alt="revies-3">
+                  <div id="rateYo-3"></div>
+              </div>
+              <div class="revies__item-content">
+                  <h6 class="revies__item-name">Соня Шамовська</h6>
+                  <p class="revies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eaque perspiciatis quis, iure cumque pariatur officiis libero accusantium provident? Odio quis ipsam nesciunt eaque debitis, similique nisi vero dicta ratione?
+                  Itaque assumenda magni maiores nemo iste, velit numquam vitae excepturi exercitationem tempore nobis dignissimos distinctio a ducimus ea aut fugiat. Quas impedit adipisci ipsam temporibus rem voluptatibus rerum exercitationem molestiae?</p>
+              </div>
+          </div>
+
+          <div class="revies__item">
+            <div class="revies__item-ava">
+                <img src="images/reviews/1.png" alt="revies-1">
+                <div id="rateYo-1"></div>
+            </div>
+
+            <div class="revies__item-content">
+                <h6 class="revies__item-name">Дмитро Григорович</h6>
+                <p class="revies__item-text">Вітаю! <br>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus similique rerum nisi tempora magnam provident quam, alias omnis laboriosam nesciunt aspernatur placeat exercitationem, ad quibusdam ipsa maxime. Earum, sit a.
+                  </p>            
+            </div>
+        </div>
+
+              <div class="revies__item">
+                  <div class="revies__item-ava">
+                      <img src="images/reviews/2.png" alt="revies-2">
+                      <div id="rateYo-2"></div>
+                  </div>
+                  <div class="revies__item-content">
+                      <h6 class="revies__item-name">Олеся Кузьменко</h6>
+                      <p class="revies__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia fugit maiores, consectetur aliquid, odio sit facilis suscipit incidunt minus possimus optio natus culpa ullam, voluptates consequatur. Distinctio tenetur impedit nemo.
+                      Suscipit molestiae praesentium iste! Necessitatibus voluptatum, eveniet omnis minima voluptatibus odit labore dolorum facilis, praesentium exercitationem nobis vero, laudantium fuga quidem. Consequuntur omnis molestiae odit provident dolor magnam, perferendis similique?</p>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </section>
+
+
+  
+
+  <section class="booking" id="booking">
+    <div class="container">
+      <h2 class="booking__title title">Зв'яжіться з нами</h2>
+      <form action="#" class="booking__form">
+        <div class="booking__inputs">
+        <input type="text" class="input" placeholder="Ваше ім'я">
+        <input type="text" class="input" placeholder="Телефон">
+        <input type="text" class="input" placeholder="E-mail">
+      </div>
+        <textarea claas="booking__area" placeholder="Коментар" id="#" cols="30" rows="10"></textarea>
+        <div class="booking__bottom">
+        <button class="booking__btn" >Відправити заявку</button>
+        <label class="booking__label">
+          <input type="checkbox" class="booking__chekbox">
+          <span class="booking__chekbox-style"></span>
+          Згода на обробку персональних даних
+        </label>
+      </div>
+      </form>
+      
+    </div>
+  </section>
+</main>
+
+ <footer class="footer">
+    <div class="container">
+
+      <div class="footer__logo logo">
+        <a href="#" class="logo">
+          <img src="images/logo.png" alt="logo" class="logo__img">
+          <p>Нотаріальне агентство <br>"Нотаріус-Київ"</p>
+        </a>
+      </div>
+      <div class="footer__box">
+        <div class="footer__info footer__item">
+          <p class="footer__box-title">Нотаріальне агентство "Нотаріус-Київ"</p>
+          <p class="footer__copy">© 2024. Всі права захищенні</p>
+          <a href="#" class="footer__link">Політика конфіденційності</a>
+        </div>
+          <div class="footer__adress footer__item">
+          <p class="footer__box-title">Адреса:</p>
+          <p class="footer__adres-text">м. Київ, вул.Миру, 20,
+            отель «Динамо», 2 поверх</p>
+        </div>
+        <div class="footer__contacts footer__item">
+          <p class="footer__box-title">Зв'язатися з нами:</p>
+          <a href="tel: 80508543543" class="footer__phone">тел. 067-11-11-111</a>
+          <a href="mailto:safari_turistic@gmail.com" class="footer__email">e-mail: safari_turistic@gmail.com</a>
+        </div>
+      </div>
+    </div>
+
+  </footer> 
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
