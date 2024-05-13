@@ -478,14 +478,14 @@ pointer-events: none;
     text-align: left;
     outline: none;
     cursor: pointer;
-    padding: 20px 8px 20px 16px;
+    padding: 20px 18px 20px 16px;
     appearance: none;
 
  
 }
 .dropdown-arr{
     position: absolute;
-    right: 8px;
+    right: 2px;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
@@ -501,11 +501,11 @@ pointer-events: none;
     gap: 8px;
     display: none;
     width: 100%;
-z-index: 888;
+    z-index: 888;
 
-border-left: 1px solid #F5F5F6;
-border-right: 1px solid #F5F5F6;
-border-bottom: 1px solid #F5F5F6;
+    border-left: 1px solid #F5F5F6;
+    border-right: 1px solid #F5F5F6;
+    border-bottom: 1px solid #F5F5F6;
 }
 .dropdown__list-item {
     color: #575757;
